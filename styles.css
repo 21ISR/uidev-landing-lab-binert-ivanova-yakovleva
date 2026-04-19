@@ -1,0 +1,26 @@
+:root {
+    --font: "Geologica", sans-serif;
+    --bgc: #051F20;
+    --bgc-card: #163832;
+    --color-head: #8EB69B;
+    --text: #DAF1DE;
+    --akc-1: #235347;
+    --color-btn: #0B2B26;
+}
+
+body {
+    display: flex;
+    font-family: var(--font);
+    background-color: var(--bgc);
+}
+
+.logo {
+    max-width: 200px;
+}
+
+header {
+    background-color: var(--bgc-card);
+    border-radius: 60px;
+    padding: 1rem 2rem;
+}
+
