@@ -40,6 +40,35 @@ main {
     gap: 1rem;
 }
 
+.found {
+    display: flex;
+    flex-direction: column;
+    background: var(--bgc-card);
+    border-radius: 3rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.found--cardholder {
+    display: flex;
+    flex-direction: row;
+    padding: 3rem;
+    gap: 20px;
+}
+
+.found--cardholder--card{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.found--cardholder--card > img {
+    max-width: 75%;
+}
+
 .important {
     display: flex;
     flex-direction: row-reverse;
