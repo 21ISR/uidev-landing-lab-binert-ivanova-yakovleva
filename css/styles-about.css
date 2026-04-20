@@ -1,0 +1,52 @@
+main {
+    display: flex;
+    flex-direction: column;
+    background: var(--bgc-card);
+    justify-content: center;
+    height: 600px;
+    border-radius: 3rem;
+    text-align: center;
+}
+
+.target {
+    display: flex;
+    background: var(--bgc-card);
+    border-radius: 3rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.target--img {
+    display: flex;
+    max-height: 400px;
+    max-width: 500px;
+    border-radius: 3rem;
+}
+
+.target--lf {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    justify-content: center;
+    padding: 0 6rem;
+}
+
+.target--lf__txt {
+    gap: 1rem;
+}
+
+.why {
+    display: flex;
+    background: var(--bgc-card);
+    border-radius: 3rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.why--lf {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    justify-content: center;
+    padding: 0 6rem;
+}
