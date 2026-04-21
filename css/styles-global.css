@@ -58,6 +58,10 @@ a {
     color: var(--color-head);
 }
 
+a:hover {
+    color: #94c9a5;
+}
+
 .nav {
     display: flex;
     align-items: center;
