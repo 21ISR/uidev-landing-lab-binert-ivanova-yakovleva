@@ -12,6 +12,8 @@ html {
 }
 
 body {
+    margin-left: 10vw;
+    margin-right: 10vw;
     display: flex;
     font-family: var(--font);
     font-size: 1.6rem;

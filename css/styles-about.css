@@ -33,8 +33,6 @@ main {
     justify-content: center;
 }
 
-.target--lf__txt {}
-
 .why {
     display: flex;
     background: var(--bgc-card);
@@ -48,8 +46,6 @@ main {
     flex-direction: row-reverse;
     justify-content: center;
 }
-
-.why--lf__text {}
 
 img {
     display: flex;
