@@ -21,13 +21,6 @@ main {
     align-items: center;
 }
 
-.about--img {
-    display: flex;
-    max-height: 400px;
-    max-width: 500px;
-    border-radius: 3rem;
-}
-
 .about--right {
     display: flex;
     flex-direction: column;
@@ -51,7 +44,7 @@ main {
 
 .found--cardholder {
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
     padding: 3rem;
     gap: 20px;
 }
@@ -76,13 +69,6 @@ main {
     border-radius: 3rem;
     justify-content: space-between;
     align-items: center;
-}
-
-.important--img {
-    display: flex;
-    max-height: 400px;
-    max-width: 500px;
-    border-radius: 3rem;
 }
 
 .important--left {
