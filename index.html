@@ -13,90 +13,93 @@
 </head>
 
 <body>
-    <header>
-        <img src="css/images/logo.svg" alt="logo" class="logo">
-        <div class="div-line"> </div>
-        <nav class="nav">
-            <a href="index.html">Главная</a>
-            <a href="lang.html">Язык и диалекты</a>
-            <a href="culture.html">Культура</a>
-            <a href="about.html">О проекте</a>
-        </nav>
-    </header>
+    <div class = "content">
+
+        <header>
+            <img src="css/images/logo.svg" alt="logo" class="logo">
+            <div class="div-line"> </div>
+            <nav class="nav">
+                <a href="index.html">Главная</a>
+                <a href="lang.html">Язык и диалекты</a>
+                <a href="culture.html">Культура</a>
+                <a href="about.html">О проекте</a>
+            </nav>
+        </header>
+        
+        <main class="hero">
+            <h1>Языки и диалекты Обь-Иртышского бассейна</h1>
+            <p class="hero__text">Сохранение культурного наследия через язык</p>
+            <form action="#about">
+                <button type="submit">Узнать подробнее ></button>
+            </form>
+        </main>
     
-    <main class="hero">
-        <h1>Языки и диалекты Обь-Иртышского бассейна</h1>
-        <p class="hero__text">Сохранение культурного наследия через язык</p>
-        <form action="#about">
-            <button type="submit">Узнать подробнее ></button>
-        </form>
-    </main>
-
-    <div class="about" id="about">
-        <img src="css/images/main/img-about.png" alt="img-about" class="about--img">
-        <div class="about--right">
-            <h2>КРАТКО О ПРОЕКТЕ</h2>
-            <div class="about--right__text">
-                <p>Языки и диалекты — это важная часть культурного наследия народов.</p>
-                <p>Проект посвящён изучению языкового разнообразия Обь-Иртышского бассейна и его значению для сохранения культуры.</p>
+        <div class="about" id="about">
+            <img src="css/images/main/img-about.png" alt="img-about" class="img--bg">
+            <div class="about--right">
+                <h2>КРАТКО О ПРОЕКТЕ</h2>
+                <div class="about--right__text">
+                    <p>Языки и диалекты — это важная часть культурного наследия народов.</p>
+                    <p>Проект посвящён изучению языкового разнообразия Обь-Иртышского бассейна и его значению для сохранения культуры.</p>
+                </div>
             </div>
         </div>
+    
+        <div class="found">
+            <h2>ЧТО ВЫ НАЙДЁТЕ НА САЙТЕ</h2>
+            <div class="found--cardholder">
+                <div class="found--cardholder--card">
+                    <img src="css/images/main/img-found-1.png" alt="img-found-1">
+                    <h3>Информация о народах и их языках</h3>
+                    <form action="lang.html">
+                        <button type="submit">Языки региона</button>
+                    </form>
+                </div>
+                <div class="found--cardholder--card">
+                    <img src="css/images/main/img-found-2.png" alt="img-found-2">
+                    <h3>Особенности речи и примеры слов</h3>
+                    <form action="lang.html#dialect">
+                        <button type="submit">Диалекты</button>
+                    </form>
+                </div>
+                <div class="found--cardholder--card">
+                    <img src="css/images/main/img-found-3.png" alt="">
+                    <h3>Связь языка с традициями и фольклором</h3>
+                    <form action="culture.html">
+                        <button type="submit">Культура</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    
+        <div class="important" id="important">
+            <img src="css/images/main/img-important.png" alt="img-important" class="img--bg">
+            <div class="important--left">
+                <h2>ПОЧЕМУ ЭТО ВАЖНО</h2>
+                <div class="important--left__text">
+                    <p>Язык — это не только средство общения, но и часть национальной идентичности.</p>
+                    <p>Сохранение языков помогает сохранить разнообразие мира и культурное наследие человечества.</p>
+                </div>
+            </div>
+        </div>
+    
+        <footer id="footer">
+            <div class=" footer--text">
+                <p>Сайт сделан по теме: “Языки и диалекты обь-иртышского бассейна”</p>
+                <p>Разработчики:</p>
+                <ul class="footer--text__list">
+                    <li>Бинерт Александр</li>
+                    <li>Иванова Анжелика</li>
+                    <li>Яковлева Виктория</li>
+                </ul>
+            </div>
+            <div class="div-line footer"> </div>
+            <div class="footer--text__year">
+                <img src="css/images/logo-back.svg" alt="logo-back" class="logo">
+                <p>2026</p>
+            </div>
+        </footer>
     </div>
-
-    <div class="found">
-        <h2>ЧТО ВЫ НАЙДЁТЕ НА САЙТЕ</h2>
-        <div class="found--cardholder">
-            <div class="found--cardholder--card">
-                <img src="css/images/main/img-found-1.png" alt="img-found-1">
-                <h3>Информация о народах и их языках</h3>
-                <form action="lang.html">
-                    <button type="submit">Языки региона</button>
-                </form>
-            </div>
-            <div class="found--cardholder--card">
-                <img src="css/images/main/img-found-2.png" alt="img-found-2">
-                <h3>Особенности речи и примеры слов</h3>
-                <form action="lang.html#dialect">
-                    <button type="submit">Диалекты</button>
-                </form>
-            </div>
-            <div class="found--cardholder--card">
-                <img src="css/images/main/img-found-3.png" alt="">
-                <h3>Связь языка с традициями и фольклором</h3>
-                <form action="culture.html">
-                    <button type="submit">Культура</button>
-                </form>
-            </div>
-        </div>
-    </div>
-
-    <div class="important" id="important">
-        <img src="css/images/main/img-important.png" alt="img-important" class="important--img">
-        <div class="important--left">
-            <h2>ПОЧЕМУ ЭТО ВАЖНО</h2>
-            <div class="important--left__text">
-                <p>Язык — это не только средство общения, но и часть национальной идентичности.</p>
-                <p>Сохранение языков помогает сохранить разнообразие мира и культурное наследие человечества.</p>
-            </div>
-        </div>
-    </div>
-
-    <footer id="footer">
-        <div class=" footer--text">
-            <p>Сайт сделан по теме: “Языки и диалекты обь-иртышского бассейна”</p>
-            <p>Разработчики:</p>
-            <ul class="footer--text__list">
-                <li>Бинерт Александр</li>
-                <li>Иванова Анжелика</li>
-                <li>Яковлева Виктория</li>
-            </ul>
-        </div>
-        <div class="div-line footer"> </div>
-        <div class="footer--text__year">
-            <img src="css/images/logo-back.svg" alt="logo-back" class="logo">
-            <p>2026</p>
-        </div>
-    </footer>
 </body>
 
 </html>

@@ -19,13 +19,6 @@ main,
     align-items: center;
 }
 
-.lang--left--img {
-    display: flex;
-    max-height: 400px;
-    max-width: 500px;
-    border-radius: 3rem;
-}
-
 .lang--left--right {
     display: flex;
     flex-direction: column;
@@ -45,13 +38,6 @@ main,
     border-radius: 3rem;
     justify-content: space-between;
     align-items: center;
-}
-
-.lang--right--img {
-    display: flex;
-    max-height: 400px;
-    max-width: 500px;
-    border-radius: 3rem;
 }
 
 .lang--right--text {
