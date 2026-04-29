@@ -1,0 +1,144 @@
+html {
+    font-size: 62.5%;
+}
+:root {
+    --font: "Geologica", sans-serif;
+    --bgc: #051F20;
+    --bgc-card: #163832;
+    --color-head: #8EB69B;
+    --text: #DAF1DE;
+    --akc-1: #235347;
+    --color-btn: #0B2B26;
+}
+
+body {
+    margin-left: 10vw;
+    margin-right: 10vw;
+    display: flex;
+    font-family: var(--font);
+    font-size: 1.6rem;
+    color: var(--text);
+    background-color: var(--bgc);
+    flex-direction: column;
+    gap: 20px;
+}
+
+.logo {
+    max-width: 200px;
+}
+
+header {
+    position: sticky;
+    top: 1rem;
+    z-index: 100;
+    display: flex;
+    background-color: var(--color-btn);
+    border-radius: 60px;
+    padding: 1rem 2rem;
+    flex-grow: 2;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.div-line {
+    background: var(--akc-1);
+    height: 3rem;
+    width: 2px;
+}
+
+.div-line.footer {
+    height: 15rem;
+}
+
+a {
+    text-decoration: none;
+    font-size: 16pt;
+    color: var(--color-head);
+}
+
+a:hover {
+    color: #94c9a5;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+h1 {
+    font-size: 32pt;
+}
+
+h2 {
+    font-size: 24pt;
+}
+
+h3 {
+    font-size: 18pt;
+}
+
+button {
+    border: none;
+    border-radius: 1rem;
+    padding: 1rem 2rem;
+    background: var(--color-btn);
+    color: var(--color-head);
+    font-family: var(--font);
+    font-size: 14pt;
+}
+
+button:hover {
+    background: #08201c;
+    color: #628b6f;
+}
+
+footer {
+    display: flex;
+    background: var(--color-btn);
+    font-size: 10pt;
+    flex-grow: 2;
+    border-radius: 3rem 3rem 0 0;
+    padding: 3rem 2rem;
+    justify-content: space-between;
+}
+
+.footer--text {
+    display: flex;
+    flex-direction: column;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    gap: 0.6rem;
+}
+
+.footer--text__year {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 1980px) {
+    body { 
+        margin: 2rem 15rem 0;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    body { 
+        margin: 2rem 10rem 0;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    body {
+        margin: 2rem 5rem 0;
+    }
+}

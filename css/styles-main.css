@@ -1,0 +1,98 @@
+main {
+    display: flex;
+    flex-direction: column;
+    background: var(--bgc-card) url(images/bgs/bg-1.png);
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    border-radius: 3rem;
+    text-align: center;
+}
+
+.hero__text{
+    font-size: 18pt;
+}
+
+.about {
+    display: flex;
+    background: var(--bgc-card);
+    border-radius: 3rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about--img {
+    display: flex;
+    max-height: 400px;
+    max-width: 500px;
+    border-radius: 3rem;
+}
+
+.about--right {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    justify-content: center;
+    padding: 0 6rem;
+}
+
+.about--right__text {
+    gap: 1rem;
+}
+
+.found {
+    display: flex;
+    flex-direction: column;
+    background: var(--bgc-card);
+    border-radius: 3rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.found--cardholder {
+    display: flex;
+    flex-direction: row;
+    padding: 3rem;
+    gap: 20px;
+}
+
+.found--cardholder--card{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.found--cardholder--card > img {
+    max-width: 75%;
+}
+
+.important {
+    display: flex;
+    flex-direction: row-reverse;
+    background: var(--bgc-card);
+    border-radius: 3rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.important--img {
+    display: flex;
+    max-height: 400px;
+    max-width: 500px;
+    border-radius: 3rem;
+}
+
+.important--left {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    justify-content: center;
+    padding: 0 6rem;
+}
+
+.important--left__text {
+    gap: 1rem;
+}
